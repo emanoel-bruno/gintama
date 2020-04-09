@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "animate.css": "^3.7.2",
+    "del": "^2.0.2",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "latest",
+    "gulp-cli": "latest",
+    "gulp-concat": "^2.6.1",
+    "gulp-concat-css": "^3.1.0",
+    "gulp-copy": "latest",
+    "gulp-csso": "^2.0.0",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^2.0.0",
+    "html5shiv": "^3.7.3",
+    "jquery": "^3.4.1",
+    "jquery-smooth-scroll": "^2.2.0",
+    "js": "^0.1.0",
+    "normalize": "^0.3.1",
+    "respond.js": "latest",
+    "run-sequence": "^1.2.2",
+    "selectivizr": "^1.0.3",
+    "tooltipster": "^4.2.7",
+    "waypoints": "^4.0.1"
+  }
+}

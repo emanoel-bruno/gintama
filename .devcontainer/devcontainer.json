@@ -1,6 +1,3 @@
-// For format details, see https://aka.ms/vscode-remote/devcontainer.json or this file's README at:
-// https://github.com/microsoft/vscode-dev-containers/tree/v0.112.0/containers/docker-existing-docker-compose
-// If you want to run as a non-root user in the container, see .devcontainer/docker-compose.yml.
 {
 	"name": "Simple Web Server",
 
@@ -10,12 +7,23 @@
 
 	"service": "web",
 
-	"workspaceFolder": "/home/dev/src",
+	"workspaceFolder": "/home/dev/",
 
 	"settings": {
-		"terminal.integrated.shell.linux": null
+		"cSpell.language": "en,pt,pt_BR"
 	},
 
-	"extensions": []
+	"postCreateCommand": "yarn install && gulp",
 
+	"extensions": [
+		"william-voyek.vscode-nginx",
+		"hookyqr.beautify",
+		"dbaeumer.vscode-eslint",
+		"esbenp.prettier-vscode",
+		"funkyremi.vscode-google-translate",
+		"streetsidesoftware.code-spell-checker",
+		"streetsidesoftware.code-spell-checker-portuguese-brazilian",
+		"wakatime.vscode-wakatime",
+		"vscode-icons-team.vscode-icons"
+	]
 }

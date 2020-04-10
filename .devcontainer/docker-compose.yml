@@ -2,9 +2,7 @@ version: "3.7"
 services:
   web:
     user: root
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image: antaema/docker_images:nginx
     volumes:
     - ./server.conf:/etc/nginx/conf.d/server.conf
     - ./gulpfile.js:/home/dev/gulpfile.js
